@@ -32,7 +32,7 @@ importers:
         version: 1.0.1(@types/node@22.13.5)
       '@electron/remote':
         specifier: 2.1.2
-        version: 2.1.2(electron@36.3.2)
+        version: 2.1.2(electron@36.4.0)
       '@ffmpeg.wasm/core-mt':
         specifier: 0.12.0
         version: 0.12.0
@@ -40,29 +40,29 @@ importers:
         specifier: 0.12.0
         version: 0.12.0
       '@floating-ui/dom':
-        specifier: 1.7.0
-        version: 1.7.0
+        specifier: 1.7.1
+        version: 1.7.1
       '@foobar404/wave':
         specifier: 2.0.5
         version: 2.0.5
       '@ghostery/adblocker-electron':
         specifier: 2.6.1
-        version: 2.6.1(electron@36.3.2)
+        version: 2.6.1(electron@36.4.0)
       '@ghostery/adblocker-electron-preload':
         specifier: 2.6.1
-        version: 2.6.1(electron@36.3.2)
+        version: 2.6.1(electron@36.4.0)
       '@hono/node-server':
         specifier: 1.14.3
-        version: 1.14.3(hono@4.7.10)
+        version: 1.14.3(hono@4.7.11)
       '@hono/swagger-ui':
         specifier: 0.5.1
-        version: 0.5.1(hono@4.7.10)
+        version: 0.5.1(hono@4.7.11)
       '@hono/zod-openapi':
         specifier: 0.19.8
-        version: 0.19.8(hono@4.7.10)(zod@3.25.49)
+        version: 0.19.8(hono@4.7.11)(zod@3.25.51)
       '@hono/zod-validator':
         specifier: 0.7.0
-        version: 0.7.0(hono@4.7.10)(zod@3.25.49)
+        version: 0.7.0(hono@4.7.11)(zod@3.25.51)
       '@jellybrick/dbus-next':
         specifier: 0.10.3
         version: 0.10.3
@@ -101,7 +101,7 @@ importers:
         version: 13.1.0
       custom-electron-prompt:
         specifier: 1.5.8
-        version: 1.5.8(electron@36.3.2)
+        version: 1.5.8(electron@36.4.0)
       deepmerge-ts:
         specifier: 7.1.5
         version: 7.1.5
@@ -142,11 +142,11 @@ importers:
         specifier: 1.1.4
         version: 1.1.4
       happy-dom:
-        specifier: 17.5.6
-        version: 17.5.6
+        specifier: 17.6.3
+        version: 17.6.3
       hono:
-        specifier: 4.7.10
-        version: 4.7.10
+        specifier: 4.7.11
+        version: 4.7.11
       howler:
         specifier: 2.2.4
         version: 2.2.4
@@ -206,7 +206,7 @@ importers:
         version: 2.8.4
       solid-floating-ui:
         specifier: 0.3.1
-        version: 0.3.1(@floating-ui/dom@1.7.0)(solid-js@1.9.7)
+        version: 0.3.1(@floating-ui/dom@1.7.1)(solid-js@1.9.7)
       solid-js:
         specifier: 1.9.7
         version: 1.9.7
@@ -229,8 +229,8 @@ importers:
         specifier: 13.4.0
         version: 13.4.0
       zod:
-        specifier: 3.25.49
-        version: 3.25.49
+        specifier: 3.25.51
+        version: 3.25.51
     devDependencies:
       '@eslint/js':
         specifier: 9.28.0
@@ -242,8 +242,8 @@ importers:
         specifier: 1.52.0
         version: 1.52.0
       '@stylistic/eslint-plugin-js':
-        specifier: 4.4.0
-        version: 4.4.0(eslint@9.28.0)
+        specifier: 4.4.1
+        version: 4.4.1(eslint@9.28.0)
       '@total-typescript/ts-reset':
         specifier: 0.6.1
         version: 0.6.1
@@ -275,11 +275,11 @@ importers:
         specifier: 6.0.0
         version: 6.0.0
       discord-api-types:
-        specifier: 0.38.10
-        version: 0.38.10
+        specifier: 0.38.11
+        version: 0.38.11
       electron:
-        specifier: 36.3.2
-        version: 36.3.2
+        specifier: 36.4.0
+        version: 36.4.0
       electron-builder:
         specifier: 26.0.12
         version: 26.0.12(electron-builder-squirrel-windows@26.0.12)
@@ -305,14 +305,14 @@ importers:
         specifier: 1.0.0-beta.5
         version: 1.0.0-beta.5(eslint-plugin-import@2.31.0)(eslint@9.28.0)
       eslint-import-resolver-typescript:
-        specifier: 4.4.1
-        version: 4.4.1(eslint-plugin-import@2.31.0)(eslint@9.28.0)
+        specifier: 4.4.2
+        version: 4.4.2(eslint-plugin-import@2.31.0)(eslint@9.28.0)
       eslint-plugin-import:
         specifier: 2.31.0
-        version: 2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.1)(eslint@9.28.0)
+        version: 2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.2)(eslint@9.28.0)
       eslint-plugin-prettier:
-        specifier: 5.4.0
-        version: 5.4.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.2)
+        specifier: 5.4.1
+        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.2)
       glob:
         specifier: 11.0.2
         version: 11.0.2
@@ -738,11 +738,11 @@ packages:
     resolution: {integrity: sha512-LILAKTrU3Rga2iXLsF9jeFxe2hNQFjWlrKuXPWSdCFeQ7Kg69fO4WwjNJ0CzjOyO6qtndRQMNKqf//N4fLYUBA==}
     engines: {node: '>=12.16.1'}
 
-  '@floating-ui/core@1.7.0':
-    resolution: {integrity: sha512-FRdBLykrPPA6P76GGGqlex/e7fbe0F1ykgxHYNXQsH/iTEtjMj/f9bpY5oQqbjt5VgZvgz/uKXbGuROijh3VLA==}
+  '@floating-ui/core@1.7.1':
+    resolution: {integrity: sha512-azI0DrjMMfIug/ExbBaeDVJXcY0a7EPvPjb2xAJPa4HeimBX+Z18HK8QQR3jb6356SnDDdxx+hinMLcJEDdOjw==}
 
-  '@floating-ui/dom@1.7.0':
-    resolution: {integrity: sha512-lGTor4VlXcesUMh1cupTUTDoCxMb0V6bm3CnxHzQcw8Eaf1jQbgQX4i02fYgT0vJ82tb5MZ4CZk1LRGkktJCzg==}
+  '@floating-ui/dom@1.7.1':
+    resolution: {integrity: sha512-cwsmW/zyw5ltYTUeeYJ60CnQuPqmGwuGVhG9w0PRaRKkAyi38BT5CKrpIbb+jtahSwUl04cWzSx9ZOIxeS6RsQ==}
 
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
@@ -1015,8 +1015,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@pkgr/core@0.2.0':
-    resolution: {integrity: sha512-vsJDAkYR6qCPu+ioGScGiMYR7LvZYIXh/dlQeviqoTWNCVfKTLYD/LkNWH4Mxsv2a5vpIRc77FN5DnmK1eBggQ==}
+  '@pkgr/core@0.2.7':
+    resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
   '@playwright/test@1.52.0':
@@ -1186,8 +1186,8 @@ packages:
     peerDependencies:
       solid-js: ^1.6.12
 
-  '@stylistic/eslint-plugin-js@4.4.0':
-    resolution: {integrity: sha512-UeeQNRF73zJXnNGGbvwgUgzS+vzVGQoRuQKR6RhQCRHQmaBaVHxDDQVmN9RPLCnRxVjO/v8cqq/yMDqC7DikSQ==}
+  '@stylistic/eslint-plugin-js@4.4.1':
+    resolution: {integrity: sha512-eLisyHvx7Sel8vcFZOEwDEBGmYsYM1SqDn81BWgmbqEXfXRf8oe6Rwp+ryM/8odNjlxtaaxp0Ihmt86CnLAxKg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=9.0.0'
@@ -2070,8 +2070,8 @@ packages:
   discord-api-types@0.37.120:
     resolution: {integrity: sha512-7xpNK0EiWjjDFp2nAhHXezE4OUWm7s1zhc/UXXN6hnFFU8dfoPHgV0Hx0RPiCa3ILRpdeh152icc68DGCyXYIw==}
 
-  discord-api-types@0.38.10:
-    resolution: {integrity: sha512-6F02RttmlDoTpFEeOlF1Z9lmNDUFum4ewBPFFjkD6mIlnd+NJ6oze/dllPdp8dpNvFuLHyEfVy+UPZ1s+IWmmA==}
+  discord-api-types@0.38.11:
+    resolution: {integrity: sha512-XN0qhcQpetkyb/49hcDHuoeUPsQqOkb17wbV/t48gUkoEDi4ajhsxqugGcxvcN17BBtI9FPPWEgzv6IhQmCwyw==}
 
   dmg-builder@26.0.12:
     resolution: {integrity: sha512-59CAAjAhTaIMCN8y9kD573vDkxbs1uhDcrFLHSgutYdPcGOU35Rf95725snvzEOy4BFB7+eLJ8djCNPmGwG67w==}
@@ -2200,8 +2200,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@36.3.2:
-    resolution: {integrity: sha512-v0/j7n22CL3OYv9BIhq6JJz2+e1HmY9H4bjTk8/WzVT9JwVX/T/21YNdR7xuQ6XDSEo9gP5JnqmjOamE+CUY8Q==}
+  electron@36.4.0:
+    resolution: {integrity: sha512-LLOOZEuW5oqvnjC7HBQhIqjIIJAZCIFjQxltQGLfEC7XFsBoZgQ3u3iFj+Kzw68Xj97u1n57Jdt7P98qLvUibQ==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2316,8 +2316,8 @@ packages:
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
 
-  eslint-import-resolver-typescript@4.4.1:
-    resolution: {integrity: sha512-KHQnjMAn/Hbs1AcMs2YfJTeNoWsaOoMRvJUKr77Y2dv7jNOaT8/IJYlvfN/ZIwTxUsv2B6amwv7u9bt2Vl9lZg==}
+  eslint-import-resolver-typescript@4.4.2:
+    resolution: {integrity: sha512-GdSOy0PwLYpQCrmnEQujvA+X0NKrdnVCICEbZq1zlmjjD12NHOHCN9MYyrGFR9ydCs4wJwHEV9tts44ajSlGeA==}
     engines: {node: ^16.17.0 || >=18.6.0}
     peerDependencies:
       eslint: '*'
@@ -2360,8 +2360,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-prettier@5.4.0:
-    resolution: {integrity: sha512-BvQOvUhkVQM1i63iMETK9Hjud9QhqBnbtT1Zc642p9ynzBuCe5pybkOnvqZIBypXmMlsGcnU4HZ8sCTPfpAexA==}
+  eslint-plugin-prettier@5.4.1:
+    resolution: {integrity: sha512-9dF+KuU/Ilkq27A8idRP7N2DH8iUR6qXcjF3FR2wETY21PZdBrIjwCau8oboyGj9b7etWmTGEeM8e7oOed6ZWg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -2703,9 +2703,9 @@ packages:
   hanja@1.1.4:
     resolution: {integrity: sha512-O8K0+9jyibUlmLd/WAXCQ+8XGersUm9PloQuEXFPRfiUztFHRz4WaELXij0iejtl8AN85FxWQYSNmAuoXLircA==}
 
-  happy-dom@17.5.6:
-    resolution: {integrity: sha512-B4U6jKuiizwCJ2WP0YreQmRdeBrHKOXhpz7YUbbwdSAKfWEhdG4UfWZOZTZ5Oejs/9yJtk7xmbfp8YdVL9LVFA==}
-    engines: {node: '>=18.0.0'}
+  happy-dom@17.6.3:
+    resolution: {integrity: sha512-UVIHeVhxmxedbWPCfgS55Jg2rDfwf2BCKeylcPSqazLz5w3Kri7Q4xdBJubsr/+VUzFLh0VjIvh13RaDA2/Xug==}
+    engines: {node: '>=20.0.0'}
 
   has-bigints@1.1.0:
     resolution: {integrity: sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg==}
@@ -2738,8 +2738,8 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
 
-  hono@4.7.10:
-    resolution: {integrity: sha512-QkACju9MiN59CKSY5JsGZCYmPZkA6sIW6OFCUp7qDjZu6S6KHtJHhAc9Uy9mV9F8PJ1/HQ3ybZF2yjCa/73fvQ==}
+  hono@4.7.11:
+    resolution: {integrity: sha512-rv0JMwC0KALbbmwJDEnxvQCeJh+xbS3KEWW5PC9cMJ08Ur9xgatI0HmtgYZfOdOSOeYsp5LO2cOhdI8cLEbDEQ==}
     engines: {node: '>=16.9.0'}
 
   hosted-git-info@4.1.0:
@@ -4222,8 +4222,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  synckit@0.11.1:
-    resolution: {integrity: sha512-fWZqNBZNNFp/7mTUy1fSsydhKsAKJ+u90Nk7kOK5Gcq9vObaqLBLjWFDBkyVU9Vvc6Y71VbOevMuGhqv02bT+Q==}
+  synckit@0.11.8:
+    resolution: {integrity: sha512-+XZ+r1XGIJGeQk3VvXhT6xx/VpbHsRzsTkGgF6E5RX9TTXD0118l87puaEBZ566FhqblC6U0d4XnubznJDm30A==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   tar@6.2.1:
@@ -4673,8 +4673,8 @@ packages:
   zlibjs@0.3.1:
     resolution: {integrity: sha512-+J9RrgTKOmlxFSDHo0pI1xM6BLVUv+o0ZT9ANtCxGkjIVCCUdx9alUF8Gm+dGLKbkkkidWIHFDZHDMpfITt4+w==}
 
-  zod@3.25.49:
-    resolution: {integrity: sha512-JMMPMy9ZBk3XFEdbM3iL1brx4NUSejd6xr3ELrrGEfGb355gjhiAWtG3K5o+AViV/3ZfkIrCzXsZn6SbLwTR8Q==}
+  zod@3.25.51:
+    resolution: {integrity: sha512-TQSnBldh+XSGL+opiSIq0575wvDPqu09AqWe1F7JhUMKY+M91/aGlK4MhpVNO7MgYfHcVCB1ffwAUTJzllKJqg==}
 
 snapshots:
 
@@ -4687,10 +4687,10 @@ snapshots:
 
   '@assemblyscript/loader@0.17.14': {}
 
-  '@asteasolutions/zod-to-openapi@7.3.0(zod@3.25.49)':
+  '@asteasolutions/zod-to-openapi@7.3.0(zod@3.25.51)':
     dependencies:
       openapi3-ts: 4.4.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -4824,7 +4824,7 @@ snapshots:
       '@sapphire/async-queue': 1.5.5
       '@sapphire/snowflake': 3.5.5
       '@vladfrangu/async_event_emitter': 2.4.6
-      discord-api-types: 0.38.10
+      discord-api-types: 0.38.11
       magic-bytes.js: 1.10.0
       tslib: 2.8.1
       undici: 6.21.1
@@ -4922,9 +4922,9 @@ snapshots:
       - bluebird
       - supports-color
 
-  '@electron/remote@2.1.2(electron@36.3.2)':
+  '@electron/remote@2.1.2(electron@36.4.0)':
     dependencies:
-      electron: 36.3.2
+      electron: 36.4.0
 
   '@electron/universal@2.0.3':
     dependencies:
@@ -5094,13 +5094,13 @@ snapshots:
       node-fetch: 3.3.2
       regenerator-runtime: 0.13.11
 
-  '@floating-ui/core@1.7.0':
+  '@floating-ui/core@1.7.1':
     dependencies:
       '@floating-ui/utils': 0.2.9
 
-  '@floating-ui/dom@1.7.0':
+  '@floating-ui/dom@1.7.1':
     dependencies:
-      '@floating-ui/core': 1.7.0
+      '@floating-ui/core': 1.7.1
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/utils@0.2.9': {}
@@ -5113,16 +5113,16 @@ snapshots:
     dependencies:
       '@ghostery/adblocker-extended-selectors': 2.6.1
 
-  '@ghostery/adblocker-electron-preload@2.6.1(electron@36.3.2)':
+  '@ghostery/adblocker-electron-preload@2.6.1(electron@36.4.0)':
     dependencies:
       '@ghostery/adblocker-content': 2.6.1
-      electron: 36.3.2
+      electron: 36.4.0
 
-  '@ghostery/adblocker-electron@2.6.1(electron@36.3.2)':
+  '@ghostery/adblocker-electron@2.6.1(electron@36.4.0)':
     dependencies:
       '@ghostery/adblocker': 2.6.1
-      '@ghostery/adblocker-electron-preload': 2.6.1(electron@36.3.2)
-      electron: 36.3.2
+      '@ghostery/adblocker-electron-preload': 2.6.1(electron@36.4.0)
+      electron: 36.4.0
       tldts-experimental: 7.0.7
 
   '@ghostery/adblocker-extended-selectors@2.6.1': {}
@@ -5136,25 +5136,25 @@ snapshots:
       '@remusao/smaz': 2.2.0
       tldts-experimental: 7.0.7
 
-  '@hono/node-server@1.14.3(hono@4.7.10)':
+  '@hono/node-server@1.14.3(hono@4.7.11)':
     dependencies:
-      hono: 4.7.10
+      hono: 4.7.11
 
-  '@hono/swagger-ui@0.5.1(hono@4.7.10)':
+  '@hono/swagger-ui@0.5.1(hono@4.7.11)':
     dependencies:
-      hono: 4.7.10
+      hono: 4.7.11
 
-  '@hono/zod-openapi@0.19.8(hono@4.7.10)(zod@3.25.49)':
+  '@hono/zod-openapi@0.19.8(hono@4.7.11)(zod@3.25.51)':
     dependencies:
-      '@asteasolutions/zod-to-openapi': 7.3.0(zod@3.25.49)
-      '@hono/zod-validator': 0.7.0(hono@4.7.10)(zod@3.25.49)
-      hono: 4.7.10
-      zod: 3.25.49
+      '@asteasolutions/zod-to-openapi': 7.3.0(zod@3.25.51)
+      '@hono/zod-validator': 0.7.0(hono@4.7.11)(zod@3.25.51)
+      hono: 4.7.11
+      zod: 3.25.51
 
-  '@hono/zod-validator@0.7.0(hono@4.7.10)(zod@3.25.49)':
+  '@hono/zod-validator@0.7.0(hono@4.7.11)(zod@3.25.51)':
     dependencies:
-      hono: 4.7.10
-      zod: 3.25.49
+      hono: 4.7.11
+      zod: 3.25.51
 
   '@humanfs/core@0.19.1': {}
 
@@ -5257,7 +5257,7 @@ snapshots:
     dependencies:
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-blur@1.6.0':
     dependencies:
@@ -5267,7 +5267,7 @@ snapshots:
   '@jimp/plugin-circle@1.6.0':
     dependencies:
       '@jimp/types': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-color@1.6.0':
     dependencies:
@@ -5275,7 +5275,7 @@ snapshots:
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
       tinycolor2: 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-contain@1.6.0':
     dependencies:
@@ -5284,7 +5284,7 @@ snapshots:
       '@jimp/plugin-resize': 1.6.0
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-cover@1.6.0':
     dependencies:
@@ -5292,20 +5292,20 @@ snapshots:
       '@jimp/plugin-crop': 1.6.0
       '@jimp/plugin-resize': 1.6.0
       '@jimp/types': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-crop@1.6.0':
     dependencies:
       '@jimp/core': 1.6.0
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-displace@1.6.0':
     dependencies:
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-dither@1.6.0':
     dependencies:
@@ -5315,12 +5315,12 @@ snapshots:
     dependencies:
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-flip@1.6.0':
     dependencies:
       '@jimp/types': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-hash@1.6.0':
     dependencies:
@@ -5338,7 +5338,7 @@ snapshots:
   '@jimp/plugin-mask@1.6.0':
     dependencies:
       '@jimp/types': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-print@1.6.0':
     dependencies:
@@ -5351,18 +5351,18 @@ snapshots:
       parse-bmfont-binary: 1.0.6
       parse-bmfont-xml: 1.1.6
       simple-xml-to-json: 1.2.3
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-quantize@1.6.0':
     dependencies:
       image-q: 4.0.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-resize@1.6.0':
     dependencies:
       '@jimp/core': 1.6.0
       '@jimp/types': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-rotate@1.6.0':
     dependencies:
@@ -5371,7 +5371,7 @@ snapshots:
       '@jimp/plugin-resize': 1.6.0
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/plugin-threshold@1.6.0':
     dependencies:
@@ -5380,11 +5380,11 @@ snapshots:
       '@jimp/plugin-hash': 1.6.0
       '@jimp/types': 1.6.0
       '@jimp/utils': 1.6.0
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/types@1.6.0':
     dependencies:
-      zod: 3.25.49
+      zod: 3.25.51
 
   '@jimp/utils@1.6.0':
     dependencies:
@@ -5471,7 +5471,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@pkgr/core@0.2.0': {}
+  '@pkgr/core@0.2.7': {}
 
   '@playwright/test@1.52.0':
     dependencies:
@@ -5586,7 +5586,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.7
 
-  '@stylistic/eslint-plugin-js@4.4.0(eslint@9.28.0)':
+  '@stylistic/eslint-plugin-js@4.4.1(eslint@9.28.0)':
     dependencies:
       eslint: 9.28.0
       eslint-visitor-keys: 4.2.0
@@ -5647,7 +5647,7 @@ snapshots:
 
   '@types/electron-localshortcut@3.1.3':
     dependencies:
-      electron: 36.3.2
+      electron: 36.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -6481,9 +6481,9 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  custom-electron-prompt@1.5.8(electron@36.3.2):
+  custom-electron-prompt@1.5.8(electron@36.4.0):
     dependencies:
-      electron: 36.3.2
+      electron: 36.4.0
 
   data-uri-to-buffer@4.0.1: {}
 
@@ -6611,7 +6611,7 @@ snapshots:
 
   discord-api-types@0.37.120: {}
 
-  discord-api-types@0.38.10: {}
+  discord-api-types@0.38.11: {}
 
   dmg-builder@26.0.12(electron-builder-squirrel-windows@26.0.12):
     dependencies:
@@ -6817,7 +6817,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@36.3.2:
+  electron@36.4.0:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 22.13.5
@@ -6996,7 +6996,7 @@ snapshots:
   eslint-import-resolver-exports@1.0.0-beta.5(eslint-plugin-import@2.31.0)(eslint@9.28.0):
     dependencies:
       eslint: 9.28.0
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.1)(eslint@9.28.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.2)(eslint@9.28.0)
       resolve.exports: 2.0.3
 
   eslint-import-resolver-node@0.3.9:
@@ -7007,7 +7007,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@4.4.1(eslint-plugin-import@2.31.0)(eslint@9.28.0):
+  eslint-import-resolver-typescript@4.4.2(eslint-plugin-import@2.31.0)(eslint@9.28.0):
     dependencies:
       debug: 4.4.1
       eslint: 9.28.0
@@ -7018,22 +7018,22 @@ snapshots:
       tinyglobby: 0.2.14
       unrs-resolver: 1.7.2
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.1)(eslint@9.28.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.2)(eslint@9.28.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.4.1)(eslint@9.28.0):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.4.2)(eslint@9.28.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.33.1(eslint@9.28.0)(typescript@5.8.3)
       eslint: 9.28.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 4.4.1(eslint-plugin-import@2.31.0)(eslint@9.28.0)
+      eslint-import-resolver-typescript: 4.4.2(eslint-plugin-import@2.31.0)(eslint@9.28.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.1)(eslint@9.28.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-typescript@4.4.2)(eslint@9.28.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -7044,7 +7044,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.28.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.4.1)(eslint@9.28.0)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.4.2)(eslint@9.28.0)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -7062,12 +7062,12 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.4.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.2):
+  eslint-plugin-prettier@5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.2):
     dependencies:
       eslint: 9.28.0
       prettier: 3.5.2
       prettier-linter-helpers: 1.0.0
-      synckit: 0.11.1
+      synckit: 0.11.8
     optionalDependencies:
       '@types/eslint': 9.6.1
       eslint-config-prettier: 10.1.5(eslint@9.28.0)
@@ -7483,7 +7483,7 @@ snapshots:
 
   hanja@1.1.4: {}
 
-  happy-dom@17.5.6:
+  happy-dom@17.6.3:
     dependencies:
       webidl-conversions: 7.0.0
       whatwg-mimetype: 3.0.0
@@ -7512,7 +7512,7 @@ snapshots:
 
   he@1.2.0: {}
 
-  hono@4.7.10: {}
+  hono@4.7.11: {}
 
   hosted-git-info@4.1.0:
     dependencies:
@@ -8893,9 +8893,9 @@ snapshots:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
 
-  solid-floating-ui@0.3.1(@floating-ui/dom@1.7.0)(solid-js@1.9.7):
+  solid-floating-ui@0.3.1(@floating-ui/dom@1.7.1)(solid-js@1.9.7):
     dependencies:
-      '@floating-ui/dom': 1.7.0
+      '@floating-ui/dom': 1.7.1
       solid-js: 1.9.7
 
   solid-js@1.9.7:
@@ -9040,10 +9040,9 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  synckit@0.11.1:
+  synckit@0.11.8:
     dependencies:
-      '@pkgr/core': 0.2.0
-      tslib: 2.8.1
+      '@pkgr/core': 0.2.7
 
   tar@6.2.1:
     dependencies:
@@ -9510,4 +9509,4 @@ snapshots:
 
   zlibjs@0.3.1: {}
 
-  zod@3.25.49: {}
+  zod@3.25.51: {}
